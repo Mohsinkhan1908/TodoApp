@@ -1,0 +1,76 @@
+*{
+    padding: 0%;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#header-1{
+    padding:40px 0px ;
+    background-color: rgb(96, 96, 189);
+}
+body{
+    background-color: aqua;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    text-align: center;
+    background-color: white;
+    width: 600px;
+    height: 700px;
+}
+#task{
+    width: 80%!important;
+    height: 40px;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: large;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+button[type="submit"] {
+    background-color: rgb(96, 96, 189);; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 15px; /* Padding around the text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style on hover */
+  }
+  
+  /* Hover effect for the submit button */
+  button[type="submit"]:hover {
+    background-color: rgb(63, 63, 214); /* Darker green on hover */
+    transition: all 0.9s;
+  }
+  
+  #to-do-box{
+    font-weight: bold;
+    text-align: left;
+    font-size:x-large;
+    list-style: none;
+    margin-top: 10px;
+
+}
+#to-do-box li{
+    position:relative;
+    background-color: rgb(96, 96, 189);
+    padding: 10px;
+    padding-right: 10px !important;
+    margin-bottom: 15px;
+    text-align: justify;
+    border-radius: 5px;
+    user-select: none;
+    margin-right:10px;
+    margin-left:10px;
+}
+#logo{
+    position: absolute ;
+    right: 10px;
+    top: 15px;
+    font-size:large;
+}
+
+.done{
+    text-decoration: line-through;
+    background-color:  rgb(193, 193, 205) !important;
+}
